@@ -1,0 +1,4 @@
+---
+- name: "Stampiamo un messaggio"
+  debug:
+    msg: "HOLA AMIGOS"
