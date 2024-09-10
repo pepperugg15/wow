@@ -1,4 +1,7 @@
 ---
-- name: "Stampiamo un messaggio"
-  debug:
-    msg: "HOLA AMIGOS"
+- name: Playbook per stampare un saluto
+  hosts: localhost
+  tasks:
+    - name: Stampa il saluto
+      debug:
+        msg: "HOLA AMIGO COMO ESTAS"
