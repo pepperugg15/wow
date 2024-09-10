@@ -1,0 +1,10 @@
+---
+- name: Playbook per installare apache2
+  hosts: localhost
+  tasks:
+    - name: Stiamo per installare apache2
+      apt:
+        name: apache2
+        state: present
+
+    
